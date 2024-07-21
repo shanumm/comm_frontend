@@ -1,0 +1,8 @@
+{
+  "rewrites": [
+    {
+      "source": "/pages/slack/oauth-redirect",
+      "destination": "/slack/oauth-redirect"
+    }
+  ]
+}
