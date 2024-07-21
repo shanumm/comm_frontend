@@ -8,6 +8,8 @@ const app = new App({
   token: process.env.SLACK_BOT_TOKEN,
   signingSecret: process.env.SLACK_SIGNING_SECRET,
   socketMode: true, // enable to use socket mode,
+  clientId: process.env.CLIENT_ID,
+  clientSecret: process.env.CLIENT_SECRET,
   appToken: process.env.APP_TOKEN,
   token_rotation_enabled: true,
   installationStore: new FileInstallationStore(),
